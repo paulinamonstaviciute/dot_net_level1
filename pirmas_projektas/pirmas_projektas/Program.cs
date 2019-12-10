@@ -10,6 +10,7 @@ namespace pirmas_projektas
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }
