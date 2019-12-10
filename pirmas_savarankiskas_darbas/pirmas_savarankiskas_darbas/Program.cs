@@ -10,6 +10,14 @@ namespace pirmas_savarankiskas_darbas
     {
         static void Main(string[] args)
         {
+            string spalva = "";
+            while (spalva != "stop")
+            {
+                Console.WriteLine("Iveskite savo megstamiausia spalva:");
+                spalva = Console.ReadLine();
+                Console.WriteLine("Mano irgi!");
+                Console.WriteLine("Jei norite nutraukti rasykite stop");
+            }
         }
     }
 }
