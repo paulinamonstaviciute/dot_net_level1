@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace antras_projektas
 {
+    //sukurdami klase sukuriam nauja tipa
     class Rectangle
     {
-        //member variables
+        //member variables - blogas komentaras
         private double lenght;
         private double width;
 
-        public void Acceptdetails()
+        public void AcceptDetails()
         {
             lenght = 4.5;
             width = 3.5;
@@ -32,8 +33,9 @@ namespace antras_projektas
     {
         static void Main(string[] args)
         {
+            //sukuriam nauja kintamaji
             Rectangle r = new Rectangle();
-            r.Acceptdetails();
+            r.AcceptDetails();
             r.Display();
             Console.ReadLine();
         }
