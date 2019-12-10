@@ -15,7 +15,7 @@ namespace trecias_savarankiskas_darbas
             pirmas = 24;
             antras = 5;
         }
-        public double Dalyba()
+        public double Daliname()
         {
             return pirmas / antras;
         }
@@ -23,7 +23,7 @@ namespace trecias_savarankiskas_darbas
         {
             Console.WriteLine("Pirmas skaicius: {0}", pirmas);
             Console.WriteLine("Antras skaicius: {0}", antras);
-            Console.WriteLine("Dalyba: {0}", Dalyba());
+            Console.WriteLine("Dalyba: {0}", Daliname());
         }
     }
     class Program

@@ -8,14 +8,14 @@ namespace antras_savarankiskas_darbas
 {
     class Calculator
     {
-        private double pirmas;
-        private double antras;
+        private int pirmas;
+        private int antras;
         public void PriimtiSkaicius()
         {
             pirmas = 17;
             antras = 23;
         }
-        public double Suma()
+        public int sudedame()
         {
             return pirmas + antras;
         }
@@ -23,7 +23,7 @@ namespace antras_savarankiskas_darbas
         {
             Console.WriteLine("Pirmas skaicius: {0}", pirmas);
             Console.WriteLine("Antras skaicius: {0}", antras);
-            Console.WriteLine("suma: {0}", Suma());
+            Console.WriteLine("suma: {0}", sudedame());
         }
     }
     class Program
